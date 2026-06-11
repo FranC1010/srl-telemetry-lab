@@ -109,7 +109,6 @@ topology:
       ports:
         - 3000:3000
       env:
-        GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS: andrewbmchugh-flow-panel
         GF_INSTALL_PLUGINS: andrewbmchugh-flow-panel
         GF_ORG_ROLE: Admin
         GF_ORG_NAME: Main Org
