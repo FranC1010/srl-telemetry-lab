@@ -105,7 +105,6 @@ topology:
         - configs/grafana/datasource.yml:/etc/grafana/provisioning/datasources/datasource.yaml:ro
         - configs/grafana/dashboards.yml:/etc/grafana/provisioning/dashboards/dashboards.yaml:ro
         - configs/grafana/dashboards:/var/lib/grafana/dashboards
-        - configs/grafana/flow_panels:/var/lib/grafana/plugins/andrewbmchugh-flow-panel:ro
       ports:
         - 3000:3000
       env:
